@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: url('giphy.webp') no-repeat center center fixed, #007bff; /* Blue background with GIF overlay */
+            background-size: cover;
+            color: #333;
+        }
+        .profile-header {
+            background-color: rgba(106, 27, 154, 0.8); /* Added transparency */
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile-header img {
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        .profile-header h1 {
+            margin-top: 1rem;
+            font-size: 2.5rem;
+        }
+        .profile-header p {
+            font-size: 1.2rem;
+        }
+        .projects-section {
+            padding: 3rem 0;
+            background-color: rgba(255, 255, 255, 0.9); /* Added transparency */
+        }
+        .projects-section h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #6a1b9a;
+        }
+        .project-card {
+            border: none;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .contact-section {
+            padding: 2rem 0;
+            background-color: rgba(106, 27, 154, 0.8); /* Added transparency */
+            color: white;
+            text-align: center;
+        }
+        .contact-section h3 {
+            font-size: 1.8rem;
+        }
+        .contact-icons i {
+            font-size: 2rem;
+            margin: 0.5rem;
+            color: white;
+            transition: color 0.3s;
+        }
+        .contact-icons i:hover {
+            color: #d0e;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Profile Header -->
+    <div class="profile-header">
+        <img src="164992ba-56c0-4e64-9b24-c45691f55863.jpg" alt="Profile Image">
+        <h1>Zyrus Mark Collarga</h1>
+        <p>My Project Portfolio</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://www.theroadtrip.co.nz/wp-content/uploads/2024/04/hiking-roys-peak.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">New Zealand</p>
+                            <a href="project1.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">A brief description of the project goes here.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">A brief description of the project goes here.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <h3>Contact Me</h3>
+        <div class="contact-icons">
+            <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- Bootstrap and FontAwesome JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
