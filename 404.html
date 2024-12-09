@@ -22,7 +22,7 @@
       overflow: hidden;
     }
 
-    /* Background Image */
+    
     body::before {
       content: '';
       position: absolute;
@@ -35,7 +35,7 @@
       filter: brightness(60%);
     }
 
-    /* Semi-blurred Overlay */
+    
     body::after {
       content: '';
       position: absolute;
@@ -43,8 +43,8 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: inherit; /* Use the same background as body */
-      filter: blur(12px); /* Add blur effect */
+      background: inherit; 
+      filter: blur(12px); 
       z-index: -1;
     }
 
